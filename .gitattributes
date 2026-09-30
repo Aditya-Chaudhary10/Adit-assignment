@@ -1,0 +1,13 @@
+# Normalise text in the repo, check out native line endings.
+* text=auto
+
+# Binary. Without this, git applies CRLF conversion and corrupts the file.
+*.pdf   binary
+*.ogg   binary
+*.wav   binary
+*.mp3   binary
+*.png   binary
+*.jpg   binary
+
+# Keep shell scripts LF so they run on Linux.
+*.sh    text eol=lf
