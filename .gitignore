@@ -1,0 +1,34 @@
+# ---- secrets -----------------------------------------------------------
+# .env.local holds the live credentials; .env is the filled-in template.
+# Only .env.example is committed, and it contains placeholders only.
+.env
+.env.*
+!.env.example
+
+# ---- python ------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- runtime output ----------------------------------------------------
+# Call audio is real recorded speech and runs to megabytes; transcripts and
+# bookings are generated per run. One sample transcript is committed under
+# samples/ as evidence instead.
+recordings/*
+!recordings/.gitkeep
+transcripts/*
+!transcripts/.gitkeep
+data/bookings.json
+*.log
+
+# ---- editor / os -------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+KMS/

@@ -1,0 +1,84 @@
+[
+  {
+    "patient_id": "PT-10432",
+    "name": "Aditya Chaudhary",
+    "phone_number": "+919999999999",
+    "preferred_language": "English",
+    "age": 41,
+    "care_program": "Metabolic Health",
+    "last_lab_date": "2026-09-14",
+    "biomarkers": [
+      {
+        "key": "hba1c",
+        "label": "HbA1c",
+        "value": 7.8,
+        "unit": "%",
+        "reference_range": "4.0 - 5.6",
+        "status": "high",
+        "plain_language": "This is your average blood sugar over about three months, and yours is a bit higher than we'd like to see."
+      },
+      {
+        "key": "fasting_glucose",
+        "label": "Fasting blood glucose",
+        "value": 142,
+        "unit": "mg/dL",
+        "reference_range": "70 - 99",
+        "status": "high",
+        "plain_language": "This is your blood sugar after not eating overnight, and it's come back a little above the usual range."
+      },
+      {
+        "key": "ldl_cholesterol",
+        "label": "LDL cholesterol",
+        "value": 165,
+        "unit": "mg/dL",
+        "reference_range": "< 100",
+        "status": "high",
+        "plain_language": "This is the cholesterol we like to keep low, and yours is a bit above where we'd want it."
+      },
+      {
+        "key": "blood_pressure",
+        "label": "Blood pressure",
+        "value": "138/88",
+        "unit": "mmHg",
+        "reference_range": "< 120/80",
+        "status": "borderline",
+        "plain_language": "Your blood pressure is just a little above the ideal range, nothing alarming."
+      }
+    ],
+    "recommended_specialty": "Endocrinology",
+    "urgency": "routine",
+    "consent_on_file": true
+  },
+  {
+    "patient_id": "PT-20871",
+    "name": "Meera Raghavan",
+    "phone_number": "+919888888888",
+    "preferred_language": "English",
+    "age": 34,
+    "care_program": "Preventive Screening",
+    "last_lab_date": "2026-09-20",
+    "biomarkers": [
+      {
+        "key": "hba1c",
+        "label": "HbA1c",
+        "value": 5.9,
+        "unit": "%",
+        "reference_range": "4.0 - 5.6",
+        "status": "borderline",
+        "plain_language": "This is your average blood sugar over about three months, and yours is a bit higher than we'd like to see."
+      },
+      {
+        "key": "vitamin_d",
+        "label": "Vitamin D",
+        "value": 14,
+        "unit": "ng/mL",
+        "reference_range": "30 - 100",
+        "status": "low",
+        "plain_language": "Your vitamin D is on the low side, which can leave people feeling tired."
+      }
+    ],
+    "recommended_specialty": "Internal Medicine",
+    "urgency": "routine",
+    "consent_on_file": true
+  }
+]
